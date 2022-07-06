@@ -10,7 +10,7 @@ export default function About () {
           </div>
           <div className="text-center mt-5 lg:w-2/3 w-full">
             <p className="mb-8 leading-relaxed dark:text-gray-300">
-                  I'm a Frontend Developer based in Niger State, Nigeria. I transitioned into tech earlier in 2020 from a non-tech background; 
+                  Am a Frontend Developer based in Niger State, Nigeria. I transitioned into tech earlier in 2020 from a non-tech background; 
                  I enjoy turning problems and opportunities into simple interface through code. I love to interact with other developers, learn from them, 
                  teach what I learnt and very excited to learn new technologies.
              </p>
