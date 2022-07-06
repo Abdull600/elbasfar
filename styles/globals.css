@@ -9,7 +9,7 @@ body {
  scroll-behavior: smooth;
 }
 
-header {
+nav {
   position: fixed;
   top: 0;
   left: 0;
