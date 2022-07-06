@@ -9,9 +9,11 @@ export default function About () {
             <div className="h-1 w-20 bg-indigo-500 dark:bg-pink-600 rounded"></div>
           </div>
           <div className="text-center mt-5 lg:w-2/3 w-full">
-            <p className="mb-8 leading-relaxed dark:text-gray-300">I'm a Frontend Developer based in Niger State, Nigeria. I transitioned into tech earlier in 2020 from a non-tech background; I enjoy turning problems and opportunities into simple interface through code.
-
-I love to interact with other developers, learn from them, teach what I learnt and very excited to learn new technologies.</p>
+            <p className="mb-8 leading-relaxed dark:text-gray-300">
+                  I'm a Frontend Developer based in Niger State, Nigeria. I transitioned into tech earlier in 2020 from a non-tech background; 
+                 I enjoy turning problems and opportunities into simple interface through code. I love to interact with other developers, learn from them, 
+                 teach what I learnt and very excited to learn new technologies.
+             </p>
             <div className="flex justify-center gap-5">
              <a href='#' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaGithub />
