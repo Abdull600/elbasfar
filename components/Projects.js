@@ -165,7 +165,7 @@ export default function Projects () {
               Hadith Search App
             </span>
             <div className="flex  items-center justify-between mt-6">
-                <ul class="flex flex-wrap gap-1 space-x-1">
+                <ul className="flex flex-wrap gap-1 space-x-1">
                     <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
                         NextJs
                     </li>
