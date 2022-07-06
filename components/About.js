@@ -21,7 +21,7 @@ export default function About () {
              <a href='https://linkedin.com/in/abdull600' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaLinkedinIn />
              </a>
-             <a href='https://twitter.com/abdull600' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
+             <a href='https://twitter.com/elbasfar10' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaTwitter />
              </a>
             </div>
