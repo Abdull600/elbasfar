@@ -19,7 +19,7 @@ export default function Projects () {
              <Image
               src="/shago.jpeg"
               width={500}
-              height={500}
+              height={400}
               alt="Shago App"
             />
           </div>
@@ -82,7 +82,7 @@ export default function Projects () {
             <Image
               src="/slush.jpeg"
               width={500}
-              height={500}
+              height={400}
               alt="Slushcoins landing page"
             />
           </div>
@@ -143,7 +143,7 @@ export default function Projects () {
             <Image
               src="/hadith.jpeg"
               width={500}
-              height={500}
+              height={400}
               alt="Hadith search engine"
             />
           </div>
