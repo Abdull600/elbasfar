@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Head from 'next/head';
 import { Transition } from "@headlessui/react"
 import { HiSun, HiMoon } from 'react-icons/hi';
@@ -8,6 +8,8 @@ import Image from 'next/image';
 export default function Layout({ title, children }) {
     const { systemTheme, theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+    
+    const divRef = useRef();
 
     useEffect(() => {
         setMounted(true);
@@ -172,9 +174,9 @@ export default function Layout({ title, children }) {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                     >
-                    {(ref) => (
+                    {(divRef) => (
                         <div className="md:hidden" id="mobile-menu">
-                        <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                        <div ref={divRef} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             <a
                             href="#"
                             className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
