@@ -14,14 +14,14 @@ export default function About () {
                  I enjoy turning problems and opportunities into simple interface through code. I love to interact with other developers, learn from them, 
                  teach what I learnt and very excited to learn new technologies.
              </p>
-            <div className="flex justify-center gap-5">
-             <a href='#' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
+            <div className="flex justify-center gap-6">
+             <a href='https://github.com/abdull600' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaGithub />
              </a>
-             <a href='#' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
+             <a href='https://linkedin.com/in/abdull600' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaLinkedinIn />
              </a>
-             <a href='#' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
+             <a href='https://twitter.com/abdull600' className='text-2xl text-indigo-600 dark:text-pink-600 dark:border-gray-50 border-indigo-600 font-bold'>
                 <FaTwitter />
              </a>
             </div>
